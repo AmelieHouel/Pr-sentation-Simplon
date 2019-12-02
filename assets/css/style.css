@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #27212D;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 50vw;
+}
+
+nav ul li {
+  padding-right: 5vw;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  width: 40vw;
+  padding: 8px;
+  justify-content: space-around;
+  font-size: 5em;
+  color: black;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 50px
+}
+
+
+figcaption {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  background-color: #27212D; 
+  color: white; 
+}
+
+.container {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #27212D;
+  color: white;
+}
+
+.dev h2 {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.competences {
+  display: flex;
+  font-size: 25px;
+  width: 100%;
+  justify-content: center;
+}
+
+.competence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #CE0033;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 1%;
+  width: 50%;
+}
+
+.competence ul {
+  padding: 1em;
+}
+
+.competence li {
+  padding: 1%;
+}
+
+#banner {
+  background-image: url(../img/simplon.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90vh;
+}
+
+#banner ul {
+  display: flex;
+  color: black;
+  font-size: 2em;
+  list-style-type: none;
+  width: 100vw;
+  justify-content: space-around;
+  background-color: white;
+}
+
+#container-team {
+  height: 90vh; 
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
